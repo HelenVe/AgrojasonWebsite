@@ -5,11 +5,14 @@ html, body {
   width:100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  background-color: #F0F8FF;
+
 
 }
 
 .navbar {
   padding: .8rem;
+  color: #66b3ff;
 }
 
 .navbar nav li {
@@ -119,9 +122,76 @@ hr.light-100 {
 .card{
   border: 1px #778899;
 }
+
+.card:hover {
+  transform: scale(1.02);
+  /*background-color: #87adfa;*/
+}
 .card-body {
-  background-color: #66CDAA;
+  background-color: #87CEFA;
   height: 200px;
+}
+.card-body h5 {
+  color:#00588b
+}
+
+.card-body h4 {
+  font-weight: bold;
+}
+.sponsor{
+  border: 1px solid gray;
+  background-color: white;
+}
+.sponsor:hover{
+  transform: scale(1.02);
+}
+
+.sponsor-body {
+  height:400px;
+  background-color: white;
+
+}
+.sponsor-title {
+  color:#696969;;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+.map p{
+  text-align: center;
+}
+
+.map h3 {
+  text-align: center;
+  color: #696969;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.address-container {
+  padding: 80px 80px;
+}
+
+.address-div {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+ }
+
+.address-div img {
+  margin: 10px;
+  padding: 10px;
+  transition: margin 300ms;
+  width: 60px;
+  height: auto;
+}
+  
+.address-div img:hover {
+  margin-left: 15px;
+}
+
+.address-div h5 {
+  color: #008B8B;
 }
 
 header {
@@ -130,7 +200,30 @@ header {
 
 /*---Media Queries --*/
 
+#sponsor_contact link:hover{
+  color:#c2d6d6;
+  text-decoration: none;
+}
 
+#sponsor_contact link{
+  color: #ffffff;
+}
+
+#sponsor_contact:visited{
+    color:#ff6666;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.sponsor-text p {
+  text-align: center;
+  font-size: 20px;
+}
 @media (max-width: 992px) { 
   .social a {
     font-size: 4rem;
