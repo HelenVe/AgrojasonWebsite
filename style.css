@@ -27,19 +27,6 @@ html, body {
   
 }
 
-/*.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-
-}
-
-.carousel-caption h1 {
-  font-size: 500%;
-  text-transform: uppercase;
-  text-shadow: 1px 1px 10px #000;
-}*/
-
 .btn-primary {
   background-color: #6648b1;
   border: 1px solid #6648b1;
@@ -129,6 +116,7 @@ hr.light-100 {
 .card-body {
   background-color: #87CEFA;
   min-height: 200px;
+
 }
 .card-body h5 {
   color:#00588b
@@ -149,6 +137,7 @@ hr.light-100 {
   min-height:400px;
   background-color: white;
   max-height: 500px;
+
 
 }
 .sponsor-title {
@@ -260,7 +249,6 @@ header {
     font-size: 2.5rem;
     padding:1.2rem;
   }
-
  }
 
 @media (max-width: 576px) {
