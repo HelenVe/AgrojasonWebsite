@@ -11,32 +11,36 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 </head>
 <body>
 	<!-- Navigation -->
 
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container-fluid">
-		<a class="navbar-brand" href="index.html"><img src="img/small-logo.png"></a>
+		<a class="navbar-brand" href="index.html" data-toggle="tooltip" data-placement="top" title="Go Home"><img src="img/small-logo.png"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item ">
-					<a class="nav-link" href="index.html">Home</a>
-				</li>
-				<li class="nav-item ">
-					<a class="nav-link" href="about.html"> Agrojason </a>
-				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="team.html">Team </a>
+					<a class="nav-link" href="index.html" data-toggle="tooltip" data-placement="top" title="Home">Home</a>
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link" href="sponsors.html">Sponsors</a>
+					<a class="nav-link" href="about.html" data-toggle="tooltip" data-placement="top" title="About"> About us </a>
 				</li>
 				<li class="nav-item ">
-					<a class="nav-link" href="contact.html">Contact Us</a>
+					<a class="nav-link" href="team.html" data-toggle="tooltip" data-placement="top" title="Team">Team </a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="progress.html" data-toggle="tooltip" data-placement="top" title="Evolution">Evolution </a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="sponsors.html" data-toggle="tooltip" data-placement="top" title="Sponsors">Sponsors</a>
+				</li>
+				<li class="nav-item ">
+					<a class="nav-link" href="contact.html" data-toggle="tooltip" data-placement="top" title="Contact">Contact </a>
 				</li>
 			</ul>
 		</div>
@@ -55,24 +59,32 @@
 <div class="container-fluid padding">
 	<!-- -----------------ROW 1--------------------------- -->
 
+	<h3> Project Manager </h3>
+	<hr>
+
 	<div class="row padding">
-		<div class="col-md-4">
-			<div class="card">
+		<div class="col-md-4 center">
+			<div class="card ">
 				<img class="card-img-top" src="img/patsianotakis.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Charalambos Patsianotakis</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
 					<p class="card-text">Project Manager and responsible for the communication system.</p>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<h3> Microcontrollers Team </h3>
+	<hr>
+	<div class="row padding">
 
 		<div class="col-md-4">
 			<div class="card">
 				<img class="card-img-top" src="img/chatzimichail.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Antonis Chatzimichail</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
 					<p class="card-text">Head of the micro-controlers team.</p>
 				</div>
 			</div>
@@ -83,7 +95,18 @@
 				<img class="card-img-top" src="img/liagka.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Maria Liagka</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
+					<p class="card-text">Member of the micro-controlers team.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/mizaras.jpg">
+				<div class="card-body">
+					<h4 class="card-title text-center">Fokion Mizaras</h4>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
 					<p class="card-text">Member of the micro-controlers team.</p>
 				</div>
 			</div>
@@ -91,13 +114,16 @@
 
 	</div>
 
+	<h3> Agronomists Team </h3>
+	<hr>
+
 	<div class="row padding">
 		<div class="col-md-4">
 			<div class="card">
 				<img class="card-img-top" src="img/galanis.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Christos Galanis</h4>
-					<h5 class="card-title text-center padding">Agronomist </h5>
+					<h5 class="card-title text-center padding">Agronomist Student</h5>
 					<p class="card-text">Head of the Agronomist team.</p>
 				</div>
 			</div>
@@ -108,7 +134,7 @@
 				<img class="card-img-top" src="img/salepis.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Vasilis Salepis</h4>
-					<h5 class="card-title text-center padding">Agronomist </h5>
+					<h5 class="card-title text-center padding">Agronomist Student</h5>
 					<p class="card-text">Member of the Agronomist team.</p>
 				</div>
 			</div>
@@ -118,30 +144,24 @@
 				<img class="card-img-top" src="img/avatar.png">
 				<div class="card-body">
 					<h4 class="card-title text-center">Agisilaos Dimopoulos</h4>
-					<h5 class="card-title text-center padding">Agronomist </h5>
+					<h5 class="card-title text-center padding">Agronomist Student</h5>
 					<p class="card-text">Member of the Agronomist team.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 
+	<h3> Finance Team </h3>
+	<hr>
+
 	<div class="row padding">
-		<div class="col-md-4">
-			<div class="card">
-				<img class="card-img-top" src="img/zaparas.jpg">
-				<div class="card-body">
-					<h4 class="card-title text-center">Paschalis Zaparas</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
-					<p class="card-text">Head of the UI and the Database team.</p>
-				</div>
-			</div>
-		</div>
+		
 		<div class="col-md-4">
 			<div class="card">
 				<img class="card-img-top" src="img/tsoukas.jpg">
 				<div class="card-body">
 					<h4 class="card-title text-center">Panagiotis Tsoukas</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
 					<p class="card-text">Head of the sponsorship team.</p>
 				</div>
 			</div>
@@ -152,25 +172,55 @@
 				<img class="card-img-top" src="img/avatar.png">
 				<div class="card-body">
 					<h4 class="card-title text-center">Konstantina Krimbogianni</h4>
-					<h5 class="card-title text-center padding">Financial Sciences</h5>
+					<h5 class="card-title text-center padding">Financial Sciences Student</h5>
 					<p class="card-text">Member of the sponsorship team.</p>
 				</div>
 			</div>
 		</div>
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/avatar.png">
+				<div class="card-body">
+					<h4 class="card-title text-center">Alkiviadis Karakasis</h4>
+					<h5 class="card-title text-center padding">Agronomist Student</h5>
+					<p class="card-text">Member of the sponsorship team.</p>
+				</div>
+			</div>
+		</div>
+
 	</div>
 
+	<h3> DB/UI Team </h3>
+	<hr>
+
 	<div class="row-padding">
+
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="img/zaparas.jpg">
+				<div class="card-body">
+					<h4 class="card-title text-center">Paschalis Zaparas</h4>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
+					<p class="card-text"> Head of the UI and the Database team.</p>
+				</div>
+			</div>
+		</div>
+
 		<div class="col-md-4">
 			<div class="card">
 				<img class="card-img-top" src="img/avatar.png">
 				<div class="card-body">
 					<h4 class="card-title text-center">Vasilis Christodoulou</h4>
-					<h5 class="card-title text-center padding">Electrical Engineer </h5>
-					<p class="card-text">Member of the UI and the Database team.</p>
+					<h5 class="card-title text-center padding">Electrical and Computer Engineering Student </h5>
+					<p class="card-text"> Member of the UI and the Database team.</p>
 				</div>
 			</div>
 		</div>
+
+
 	</div>
+
 </div>
 
 <hr class="my-4">
@@ -195,27 +245,36 @@
 <!--- Footer -->
 <footer>
 <div class="container-fluid padding">
-	<div class="row text-center">
-		<div class="col-md-12">
-			<hr class="light">
-			<h4> Address </h4>
-			<p>agrojason.project@gmail.com</p>
-			<p>17th km Old National Road of Volos-Larissa</p>
-			<p> Velestino </p>
-			<p>Greece</p>
-
+	
+	<div class="row footer-img-row padding">
+		<div class="col-lg-4 col-sm-12 col-md-12 col-xs-12 footer-img d-flex align-items-stretch">
+			<img src="img/ieee_sb_volos_white.png" alt="ieee sb">
 		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-img d-flex align-items-stretch">
+			<img src = "img/lab_ac_ec.png" alt= "lab ac ec">
+		</div>
+		<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 footer-img d-flex align-items-stretch">
+			<img src="img/uth.png" alt="uth logo footer">
+		</div>
+	</div>
 
+		
+	<div class="row text-center">
 		<div class="col-md-12">
 			<hr class="light-100">
 			<h5>&copy; AgrojasonProject</h5>
+			<h6>Website by <a href="https://github.com/HelenVe">Eleni Veroni</a></h6>
 
+		</div>
 	</div>
 </div>
 </footer>
 
 
 
-
 </body>
 </html>
+
+
+
+
