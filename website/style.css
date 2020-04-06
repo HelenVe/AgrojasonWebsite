@@ -8,9 +8,12 @@ html, body {
   background-color: #F0F8FF;
 }
 
+
 .navbar {
   padding: .8rem;
   color: #66b3ff;
+  width: 100%;
+  
 }
 
 .navbar nav li {
@@ -48,6 +51,13 @@ html, body {
   padding-bottom: 2rem;
 }
 
+.index-img {
+  padding-top: 3rem;
+}
+
+#index-subtitle {
+  padding-bottom: 2%;
+}
 .welcome {
   width: 75%;
   margin: 0 auto;
@@ -152,7 +162,7 @@ hr.light-100 {
 .sponsor-title {
   color:#696969;;
   font-size: 30px;
-  font-family: sans-serif;
+  font-family: 'Poppins', sans-serif;
 
 }
 
@@ -275,8 +285,8 @@ header {
 	font-size: 15px;
 }
 
-.about-text h3 {
-	font-family: sans-serif;
+.about-text h4 {
+	font-family: 'Poppins', sans-serif;
 }
 .text-padding {
 	padding-bottom: 50px;
@@ -305,15 +315,44 @@ footer a:hover {
 
 .progress-container {
   width: 100%; 
-  color: white;
+}
+.progress-container h4{
+  font-size: 40px;
+  padding-left: 1%;
 }
 
+.progress-container p {
+  font-size: 20px;
+  padding-left: 1%;
+}
+.box {
+  background-color: white;
+}
+.progress-container .row{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.myImg:hover{ 
+  opacity: 0.7;
+}
+
+.progress-bar {
+  height: 8px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  width: 0%;
+}
 .container img {
 	width: 100%;
 }
 
 .progress-text {
-	font-family: poppins;
+	font-family: 'Poppins', sans-serif;
 	font-size: 40px;
 	color: white;
 	margin-top: 40px;
@@ -325,41 +364,114 @@ footer a:hover {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+/*To center the images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 .border {
-    width: 50%;
-    border-bottom: 1px solid #d2282e;
-    margin: 0 auto;
-    height: 8px;
-    background-color: white;
-    margin-bottom: 20px;
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 5px;
+  background-color: white;
+  margin-bottom: 20px;
 }
 
 .list-group {
 	width: 15%;
 	text-align: center;
-	font-family: poppins;
+	font-family: 'Poppins', sans-serif;
 	margin-bottom: 40px;
-	margin-right: 25px;
-	margin-left: 10%;
+	margin-left: 40%;
 	margin-top: 5%;
 }
 
 .list-group h4 {
-	font-size: 20px;
+	font-size: 30px;
 }
-
-.list-group p{
-}
-
 .list-text {
 	margin-top: 5%; /* The same margin-top as list-group */
 }
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 @media (max-width: 992px) { 
   .social a {
     font-size: 4rem;
     padding:2rem;
-
   }
  }
 
@@ -394,7 +506,7 @@ footer a:hover {
  }
 
 @media (max-width: 576px) {
-   .carousel-caption {
+  .carousel-caption {
     top:40%;
   }
 
@@ -441,7 +553,7 @@ footer a:hover {
 
 }
 /*--- Fixed Background Image --*/
-figure {
+/*figure {
   position: relative;
   width: 100%;
   height: 60%;
@@ -476,7 +588,7 @@ figure {
 
 
 
-
+*/
 
 
 
