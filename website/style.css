@@ -99,6 +99,8 @@ footer {
   background-color: #3f3f3f;
   color: #d5d5d5;
   padding-top: 2rem;
+  padding-left: 2rem;
+  margin: 0 auto;
 }
 
 hr.light {
@@ -194,9 +196,6 @@ hr.light-100 {
 	color: #cd7f32;
 }
 
-.map p{
-  text-align: center;
-}
 
 .map h3 {
   text-align: center;
@@ -204,12 +203,19 @@ hr.light-100 {
   padding-top: 4%;
   padding-bottom: 4%;
 }
+
+.map iframe {
+  width: 100%;
+  align-items: center;
+  position: relative;
+  
+}
 .address-container {
   padding: 80px 80px;
 }
 
 .address-div {
-  display: flex;
+  display: block;
   align-items: center;
   padding-bottom: 15px;
  }
@@ -604,6 +610,7 @@ footer a:hover {
   background-color: white;
   margin-bottom: 20px;
 }
+
 
 }
 

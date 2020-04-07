@@ -11,6 +11,11 @@
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+	<script>
+  function resizeIframe(obj) {
+    obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+  }
+</script>
 </head>
 <body style="background-color: #F0F8FF;">
 
@@ -18,7 +23,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.html" data-toggle="tooltip" data-placement="top" title="Go Home"><img src="img/logo/small-logo.png"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive ">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarResponsive">
@@ -46,8 +51,6 @@
 	</div>
 </nav>
 
-
-
 <header class= "text-center py-5 mb-4">
   <div class="container-fluid padding">
     <h1 class="font-weight-light text-white">Contact us to learn more about our work</h1>
@@ -55,15 +58,16 @@
 </header>
 
 <div class="row padding">
-	<div class="col-md-6 col-sm-12 col-xs-12">
+	<div class="col-md-6 ">
 		<div class="map padding">
 			<h3> Location </h3>	
-				<p><iframe src="https://www.google.com/maps/d/embed?mid=1_WXa98juNug-Cr9Cq4arF5FrtUmFSF6K" width="640" height="480"></iframe> </p>
-
+			<div class="address-container">
+				<iframe src="https://www.google.com/maps/d/embed?mid=1_WXa98juNug-Cr9Cq4arF5FrtUmFSF6K" frameborder="0" scrolling="no" onload="resizeIframe(this)" width="640px" height="420px"></iframe> 
+			</div>
 		</div>
 	</div>
 
-	<div class="col-md-6 col-sm-12 col-xs-12">
+	<div class="col-md-6 ">
 		<div class="map padding">
 			<h3>Address</h3>
 
