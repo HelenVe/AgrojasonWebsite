@@ -59,9 +59,10 @@ html, body {
   padding-bottom: 2%;
 }
 .welcome {
-  width: 75%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 2rem;
+  display: block;
 
 }
 
@@ -154,7 +155,10 @@ hr.light-100 {
 
 .sponsor-body {
   /*min-height:400px;*/
-  background-color: white;
+  background-color: white;	
+  position: relative;
+  display: block;
+
   /*max-height: 500px;*/
 
 
@@ -170,6 +174,12 @@ hr.light-100 {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	font-size: 36px;
+}
+.platinum-img{
+	display: block;
+	width:75%;
+	height: 85%;
+	align-items: center;
 }
 
 #gold {
@@ -315,10 +325,12 @@ footer a:hover {
 
 .progress-container {
   width: 100%; 
+  position: relative;
 }
 .progress-container h4{
   font-size: 40px;
   padding-left: 1%;
+
 }
 
 .progress-container p {
@@ -382,13 +394,16 @@ footer a:hover {
 }
 
 .list-group {
-	width: 15%;
+	width: 35%;
 	text-align: center;
 	font-family: 'Poppins', sans-serif;
 	margin-bottom: 40px;
-	margin-left: 40%;
+	margin-left: 33%;
 	margin-top: 5%;
+	position: relative;
+	display: block;
 }
+
 
 .list-group h4 {
 	font-size: 30px;
@@ -503,6 +518,26 @@ footer a:hover {
     font-size: 2.5rem;
     padding:1.2rem;
   }
+  .progress-container h1 {
+	font-size: 30px;
+
+  } 
+ .progress-container h4 {
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+ .progress-container p{
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+ .progress-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3wel0px;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+
  }
 
 @media (max-width: 576px) {
@@ -540,7 +575,37 @@ footer a:hover {
   .column {
     width: 100%;
   }
+
+
+.progress-container h1 {
+	font-size: 25px;
+
   } 
+ .progress-container h4 {
+ 	padding-left: 1%;
+ 	font-size: 25px;
+ }
+ .progress-container p{
+ 	padding-left: 1%;
+ 	font-size: 20px;
+ }
+.progress-text {
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-top: 40px;
+	padding-bottom: 10px;
+}
+.border {
+  width: 50%;
+  border-bottom: 1px solid #d2282e;
+  margin: 0 auto;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+}
 
 
 /*---Firefox Bug Fix --*/
