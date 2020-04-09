@@ -26,8 +26,8 @@ html, body {
 
 .carousel-inner img {
   width: 100%;
-  height: 50%;
-  max-height: 900px;
+  height: 75%;
+/*  max-height: 900px;*/
   
 }
 
@@ -102,6 +102,7 @@ footer {
   /*padding-left: 2rem;*/
   position: absolute;
   width: 100%;
+  display: flex;
   
 }
 
@@ -113,11 +114,6 @@ footer a {
   color: #d5d5d5;
 }
 
-.footer-img {
-   margin: 0 auto;
-
-
-}
 .footer-img-col  {
   /*display: inline-block;*/
  /* padding:0 auto;*/
@@ -128,8 +124,8 @@ footer a {
   display: flex;
   justify-content: space-between;
   text-align: center;   
-
 }
+
 /*classes for the vertical lines*/
 hr.light {
   border-top: 1px solid #d5d5d5;
@@ -173,40 +169,29 @@ hr.light-100 {
 /*******************Sponsors***********/
 
 .sponsor{
+  border-radius: calc(.25rem - 1px);
   border: 1px solid gray;
   background-color: white;
+  position: relative;
+  display: block;
+  display:flex;
+  align-items:stretch;
 }
 .sponsor:hover{
   transform: scale(1.02);
 }
 
-.sponsor-body {
-  /*min-height:400px;*/
-  background-color: white;	
-  position: relative;
-  display: block;
-
-  /*max-height: 500px;*/
-
-
 }
-.sponsor-title {
+/*.sponsor-title {
   color:#696969;;
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
-
 }
-
+*/
 #gold, #platinum, #bronze {
 	margin-top: 20px;
 	margin-bottom: 40px;
 	font-size: 36px;
-}
-.platinum-img{
-	display: block;
-	width:75%;
-	height: 85%;
-	align-items: center;
 }
 
 #gold {
@@ -217,11 +202,24 @@ hr.light-100 {
 	color: #c1beba;
 }
 
+.platinum-dim {
+  /*width: 85%;
+  height: 75%;*/
+  display: block;
+  align-items: center;
+}
+
+.bronze-dim {
+ /* width:55% ;
+  height:80%;*/
+  display:inline-block;
+}
 #bronze {
 	color: #cd7f32;
 }
 
 
+/* Contact page */
 .map h3 {
   text-align: center;
   color: #696969;
@@ -286,11 +284,6 @@ header {
   width: 50%;
 }
 
-.sponsor-text p {
-  text-align: center;
-  font-size: 20px;
-}
-
 #carouselInd {
 	color: grey;
 	margin-left: 10px;
@@ -298,10 +291,10 @@ header {
 }
 
 .about-text {
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 20px;
-	font-size: 15px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2%;
+	font-size: 20%;
 }
 
 .about-text h4 {
@@ -312,13 +305,16 @@ header {
 }
 
 .img-container {
-	padding-left: 100px;
-	padding-right: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 10%;
+	padding-bottom: 10%;
 }
 
+.about-carousel {
+  display: block;
 
+}
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -350,7 +346,6 @@ header {
 }
 /*class to make the images change when user drags pointer on them */
 .myImg {
-    border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -571,6 +566,7 @@ header {
 
   .carousel-indicators {
     display: none;
+    
   }
   .display-4 {
     font-size: 160%;
