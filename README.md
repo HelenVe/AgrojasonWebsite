@@ -2,11 +2,11 @@
 www.agrojason.eu 
 
 
-This is a website built for the Agrojason Project of the IEEE SB Volos.
+This is a website built for the Agrojason Project of the IEEE Student Branch University of Thessaly Volos.
 I used HTML5, CSS/Boostrap along with some Javascript for the image slider, the progress bar, and to display the images when clicking on them.
 
 The img folder contains the images used for the project.
-The subfolders fromDraft and progress contain images used in the about and the sponsors page respectively.
+The subfolders fromDraft and progress contain images used in the about and the sponsors page respectively. The website is bilangual (English and Greek)
 There are htmls
 
 index ->  the main page 
@@ -23,3 +23,5 @@ contact -> contact page
 
 Hope you find the code useful!
 
+Designer: Eleni Veroni
+Maintainance: Charalampos Patsianotakis, Maria Patsianotakis, Panagiotis Tsoukas
